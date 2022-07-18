@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f7b5d9;
+}
+
+.App {
+  background-color: white;
+  width: 50rem;
+  padding: 2rem;
+  margin: 3rem auto;
+  border-radius: 25px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  width: 8rem;
+  padding-block: 0.5rem;
+  background-color: #ffe6f4;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  font: inherit;
+  font-weight: 700;
+  color: #410526;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.add--people--form {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  padding-left: 2rem;
+}
+
+.add--people--form label {
+  font-weight: 600;
+}
+
+.add--people--form input {
+  margin-block: 1rem;
+  font-size: 1rem;
+  text-indent: 5px;
+  padding-block: 5px;
+}
+
+.birthdays--count {
+  font-size: 2rem;
+}
+
+.birthdays--container {
+  list-style: none;
+  padding: 0;
+}
+
+.birthdays--container li {
+  margin-block: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(99, 99, 99, 0.2);
+}
+
+.name {
+  margin-block: 1rem;
+  color: #410526;
+  font-size: 1.25rem;
+}
+
+.age {
+  margin: 0;
+}
